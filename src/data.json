@@ -1,0 +1,95 @@
+
+{
+    "data": [
+        {
+            "id": 0,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/1.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 1,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/3.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 2,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/4.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 3,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/5.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 4,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/6.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 5,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/7.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 6,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/8.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 7,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/9.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        },
+        {
+            "id": 8,
+            "inLibrary": false,
+            "finished": false,
+            "img": "/assets/books/11.svg",
+            "title": "Building an inclusive organization",
+            "author": "Stephen Frost",
+            "views": "11.12k",
+            "duration": "16min"
+        }
+    ]
+}
