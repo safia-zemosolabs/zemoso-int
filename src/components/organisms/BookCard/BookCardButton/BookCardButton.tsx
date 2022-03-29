@@ -1,5 +1,5 @@
 import React from "react";
-import TimeIcon from "../../../atoms/icons/Time";
+import TimeIcon from "../../../atoms/icons/TimeIcon";
 import UserIcon from "../../../atoms/icons/User/User";
 import { Typography } from "@mui/material";
 import theme from "../../../../themes";

@@ -2,8 +2,7 @@ import React from "react";
 import { createMemoryHistory } from "history";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { render, screen } from "@testing-library/react";
-import { ThemeProvider } from "@mui/material";
-import theme from "../../../themes";
+
 import Blink from "../Blink";
 
 test("renders learn react link", () => {

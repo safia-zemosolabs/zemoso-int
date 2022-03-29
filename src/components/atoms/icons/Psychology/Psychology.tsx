@@ -1,7 +1,7 @@
 import React from "react";
 import theme from "../../../../themes";
 
-export const Psychology = () => (
+const Psychology = () => (
   <svg
     width={theme.spacing(4)}
     height={theme.spacing(4)}
@@ -15,3 +15,5 @@ export const Psychology = () => (
     />
   </svg>
 );
+
+export default Psychology;

@@ -1,6 +1,6 @@
 import ArrowRight from "./ArrowRight";
 
-test("something", () => {
+test("Testing ArrowRight", () => {
   <svg>
     <ArrowRight />
   </svg>;

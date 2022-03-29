@@ -15,3 +15,5 @@ export const PersonalDevelopment = () => (
     />
   </svg>
 );
+
+export default PersonalDevelopment;

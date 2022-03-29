@@ -1,7 +1,7 @@
 import React from "react";
 import theme from "../../../../themes";
 
-export const Corporate = () => (
+const Corporate = () => (
   <svg
     width={theme.spacing(4)}
     height={theme.spacing(4)}
@@ -15,3 +15,5 @@ export const Corporate = () => (
     />
   </svg>
 );
+
+export default Corporate;

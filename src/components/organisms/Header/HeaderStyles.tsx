@@ -1,6 +1,6 @@
 import theme from "../../../themes";
 
-const styles = {
+const HeaderStyles = {
   nav: {
     padding: "20px 0",
     display: "grid",
@@ -49,4 +49,4 @@ const styles = {
   },
 };
 
-export default styles;
+export default HeaderStyles;

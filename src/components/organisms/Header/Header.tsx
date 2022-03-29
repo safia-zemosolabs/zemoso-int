@@ -9,7 +9,7 @@ import Ellipse from "../../atoms/icons/Ellipse";
 
 import HeaderDropDown from "../HeaderDropDown/HeaderDropDown";
 
-import styles from "./HeaderStyles";
+import HeaderStyles from "./HeaderStyles";
 
 function Header() {
   const location = useLocation();
@@ -30,8 +30,8 @@ function Header() {
   return (
     <Box>
       <Container maxWidth={false} disableGutters={true} className="container">
-        <Grid item xs={12} style={styles.nav} spacing={2} container>
-          <Grid item xs={12} sm={6} md={6} style={styles.links}>
+        <Grid item xs={12} style={HeaderStyles.nav} spacing={2} container>
+          <Grid item xs={12} sm={6} md={6} style={HeaderStyles.links}>
             <Logo />
             <Search />
 
@@ -39,8 +39,8 @@ function Header() {
               to="/"
               style={
                 activeLink === "/"
-                  ? styles.linkItemActive
-                  : styles.linkItemNonActive
+                  ? HeaderStyles.linkItemActive
+                  : HeaderStyles.linkItemNonActive
               }
               onClick={() => handleActive("/")}
             >
@@ -50,7 +50,11 @@ function Header() {
             <Typography
               variant="body2"
               onClick={showNavMenu}
-              style={navMenu ? styles.linkItemActive : styles.linkItemNonActive}
+              style={
+                navMenu
+                  ? HeaderStyles.linkItemActive
+                  : HeaderStyles.linkItemNonActive
+              }
             >
               {" "}
               Explore <CaretDown />
@@ -60,8 +64,8 @@ function Header() {
               to="/library"
               style={
                 activeLink === "/library"
-                  ? styles.linkItemActive
-                  : styles.linkItemNonActive
+                  ? HeaderStyles.linkItemActive
+                  : HeaderStyles.linkItemNonActive
               }
               onClick={() => handleActive("/library")}
             >
@@ -69,14 +73,18 @@ function Header() {
             </Link>
           </Grid>
 
-          <Grid item xs={12} sm={12} md={12} style={styles.profile}>
+          <Grid item xs={12} sm={12} md={12} style={HeaderStyles.profile}>
             <Ellipse />
             <CaretDown />
           </Grid>
         </Grid>
       </Container>
 
-      <Grid style={navMenu ? styles.activeNavMenu : styles.nonActiveNavMenu}>
+      <Grid
+        style={
+          navMenu ? HeaderStyles.activeNavMenu : HeaderStyles.nonActiveNavMenu
+        }
+      >
         <HeaderDropDown></HeaderDropDown>
       </Grid>
     </Box>

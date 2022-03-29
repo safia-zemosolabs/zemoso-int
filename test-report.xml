@@ -1,16 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
-    <testCase name="something" duration="3"/>
-  </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/CaretDown/CaretDown.test.tsx">
-    <testCase name="something" duration="4"/>
+    <testCase name="something" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Building/Building.test.tsx">
+    <testCase name="Testing Building" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/Logo/Logo.test.tsx">
+    <testCase name="Testing Logo" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Motivation/Motivation.test.tsx">
+    <testCase name="Testing Motivation" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Flask/Flask.test.tsx">
+    <testCase name="Testing Flask" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/TimeIcon/TimeIcon.test.tsx">
+    <testCase name="Testing History" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Productivity/Productivity.test.tsx">
+    <testCase name="Testing Productivity" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Education/Education.test.tsx">
+    <testCase name="Testing Education" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
+    <testCase name="Testing PersonalDevelopment" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Communication/Communication.test.tsx">
+    <testCase name="Testing Communication" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Money/Money.test.tsx">
+    <testCase name="Testing Money" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/History/History.test.tsx">
+    <testCase name="Testing History" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Corporate/Corporate.test.tsx">
+    <testCase name="Testing Corporate" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Nature/Nature.test.tsx">
+    <testCase name="Testing Nature" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Psychology/Psychology.test.tsx">
+    <testCase name="Testing Psychology" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Carrier/Carrier.test.tsx">
+    <testCase name="Testing Carrier" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/User/User.test.tsx">
+    <testCase name="Testing User" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Entrepreneurship/Entrepreneurship.test.tsx">
+    <testCase name="Testing Entrepreneurship" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Health/Health.test.tsx">
+    <testCase name="Testing Health" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Economics/Economics.test.tsx">
+    <testCase name="Testing Economics" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Stats/Stats.test.tsx">
+    <testCase name="Testing Stats" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Ellipse/Ellipse.test.tsx">
+    <testCase name="Testing Ellipse" duration="4"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
+    <testCase name="Testing ArrowRight" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Relationship/Relationship.test.tsx">
+    <testCase name="Testing Relationship" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Add/Add.test.tsx">
+    <testCase name="Testing Building" duration="4"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Search/Search.test.tsx">
+    <testCase name="Testing Search" duration="1"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Dots/Dots.test.tsx">
+    <testCase name="Testing Dots" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Library/Library.test.tsx">
-    <testCase name="renders learn react link" duration="74"/>
+    <testCase name="renders learn react link" duration="47"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/__test__/Blink.test.tsx">
-    <testCase name="renders learn react link" duration="108">
+    <testCase name="renders learn react link" duration="91">
       <failure message="TestingLibraryElementError: Unable to find an element with the text: /Get the key ideas from/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."><![CDATA[TestingLibraryElementError: Unable to find an element with the text: /Get the key ideas from/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
 Ignored nodes: comments, <script />, <style />
@@ -20,7 +95,7 @@ Ignored nodes: comments, <script />, <style />
     at Object.getElementError (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/config.js:38:19)
     at /home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
     at getAllByText (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/query-helpers.js:130:15)
-    at Object.<anonymous> (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/__test__/Blink.test.tsx:21:36)
+    at Object.<anonymous> (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/__test__/Blink.test.tsx:20:36)
     at Promise.then.completed (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/utils.js:391:28)
     at new Promise (<anonymous>)
     at callAsyncCircusFn (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/utils.js:316:10)

@@ -15,3 +15,5 @@ export const Productivity = () => (
     />
   </svg>
 );
+
+export default Productivity;

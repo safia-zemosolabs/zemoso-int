@@ -9,5 +9,7 @@ export default {
 export const component = (props: TabsProps) => <Tabs {...props}></Tabs>;
 
 component.args = {
-  setActive: () => {},
+  setActive: () => {
+    console.log("Tabs stories");
+  },
 };

@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { useLocation } from "react-router";
 import { BookContextType, bookListContext } from "../../App";
 import theme from "../../themes";
-import TimeIcon from "../../components/atoms/icons/Time";
+import TimeIcon from "../../components/atoms/icons/TimeIcon";
 import UserIcon from "../../components/atoms/icons/User";
 import Button from "../../components/molecules/Button/Primary/";
 import ArrowRight from "../../components/atoms/icons/ArrowRight";

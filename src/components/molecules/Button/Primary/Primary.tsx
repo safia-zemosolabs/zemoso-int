@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import { Typography } from "@mui/material";
 import theme from "../../../../themes";
-import { red } from "@material-ui/core/colors";
 
 const styles = {
   button: {
