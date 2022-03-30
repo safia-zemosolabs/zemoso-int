@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Relationship/Relationship.test.tsx">
-    <testCase name="Testing Relationship" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Productivity/Productivity.test.tsx">
-    <testCase name="Testing Productivity" duration="6"/>
-  </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Communication/Communication.test.tsx">
     <testCase name="Testing Communication" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
-    <testCase name="Testing PersonalDevelopment" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Entrepreneurship/Entrepreneurship.test.tsx">
     <testCase name="Testing Entrepreneurship" duration="3"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
-    <testCase name="Testing ArrowRight" duration="4"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Productivity/Productivity.test.tsx">
+    <testCase name="Testing Productivity" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Psychology/Psychology.test.tsx">
-    <testCase name="Testing Psychology" duration="2"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
+    <testCase name="Testing PersonalDevelopment" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Motivation/Motivation.test.tsx">
-    <testCase name="Testing Motivation" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Corporate/Corporate.test.tsx">
-    <testCase name="Testing Corporate" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Education/Education.test.tsx">
-    <testCase name="Testing Education" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Economics/Economics.test.tsx">
-    <testCase name="Testing Economics" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Ellipse/Ellipse.test.tsx">
-    <testCase name="Testing Ellipse" duration="8"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Add/Add.test.tsx">
-    <testCase name="Testing Building" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Building/Building.test.tsx">
-    <testCase name="Testing Building" duration="2"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/CaretDown/CaretDown.test.tsx">
-    <testCase name="something" duration="3"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Relationship/Relationship.test.tsx">
+    <testCase name="Testing Relationship" duration="3"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/TimeIcon/TimeIcon.test.tsx">
     <testCase name="Testing History" duration="3"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/History/History.test.tsx">
-    <testCase name="Testing History" duration="4"/>
+    <testCase name="Testing History" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Search/Search.test.tsx">
-    <testCase name="Testing Search" duration="9"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Education/Education.test.tsx">
+    <testCase name="Testing Education" duration="4"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Nature/Nature.test.tsx">
+    <testCase name="Testing Nature" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Corporate/Corporate.test.tsx">
+    <testCase name="Testing Corporate" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Building/Building.test.tsx">
+    <testCase name="Testing Building" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Carrier/Carrier.test.tsx">
     <testCase name="Testing Carrier" duration="3"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Nature/Nature.test.tsx">
-    <testCase name="Testing Nature" duration="3"/>
-  </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Health/Health.test.tsx">
     <testCase name="Testing Health" duration="3"/>
   </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Flask/Flask.test.tsx">
+    <testCase name="Testing Flask" duration="4"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Add/Add.test.tsx">
+    <testCase name="Testing Building" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Motivation/Motivation.test.tsx">
+    <testCase name="Testing Motivation" duration="2"/>
+  </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Stats/Stats.test.tsx">
-    <testCase name="Testing Stats" duration="2"/>
+    <testCase name="Testing Stats" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Money/Money.test.tsx">
+    <testCase name="Testing Money" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Economics/Economics.test.tsx">
+    <testCase name="Testing Economics" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/User/User.test.tsx">
+    <testCase name="Testing User" duration="3"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Dots/Dots.test.tsx">
     <testCase name="Testing Dots" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Flask/Flask.test.tsx">
-    <testCase name="Testing Flask" duration="3"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Search/Search.test.tsx">
+    <testCase name="Testing Search" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Money/Money.test.tsx">
-    <testCase name="Testing Money" duration="5"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
+    <testCase name="Testing ArrowRight" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/User/User.test.tsx">
-    <testCase name="Testing User" duration="1"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Ellipse/Ellipse.test.tsx">
+    <testCase name="Testing Ellipse" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/CaretDown/CaretDown.test.tsx">
+    <testCase name="something" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Psychology/Psychology.test.tsx">
+    <testCase name="Testing Psychology" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/Logo/Logo.test.tsx">
-    <testCase name="Testing Logo" duration="2"/>
+    <testCase name="Testing Logo" duration="1"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Library/Library.test.tsx">
-    <testCase name="renders learn react link" duration="51"/>
+    <testCase name="renders learn react link" duration="64"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/__test__/Blink.test.tsx">
-    <testCase name="renders learn react link" duration="97">
+    <testCase name="renders learn react link" duration="103">
       <failure message="TestingLibraryElementError: Unable to find an element with the text: /Get the key ideas from/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."><![CDATA[TestingLibraryElementError: Unable to find an element with the text: /Get the key ideas from/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
 Ignored nodes: comments, <script />, <style />
