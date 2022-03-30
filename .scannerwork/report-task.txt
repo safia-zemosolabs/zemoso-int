@@ -3,5 +3,5 @@ projectKey=safia-zemosolabs_zemoso-int
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.27934
 dashboardUrl=https://sonarcloud.io/dashboard?id=safia-zemosolabs_zemoso-int
-ceTaskId=AX_YePzd-KZervzqaUJ8
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_YePzd-KZervzqaUJ8
+ceTaskId=AX_YhCAaoMHiVAUeIV3d
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_YhCAaoMHiVAUeIV3d
