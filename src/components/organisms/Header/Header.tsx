@@ -32,45 +32,56 @@ function Header() {
       <Container maxWidth={false} disableGutters={true} className="container">
         <Grid item xs={12} style={HeaderStyles.nav} spacing={2} container>
           <Grid item xs={12} sm={6} md={6} style={HeaderStyles.links}>
-            <Logo />
-            <Search />
+            <Box data-testid="Logo">
+              <Logo />
+            </Box>
 
-            <Link
-              to="/"
-              style={
-                activeLink === "/"
-                  ? HeaderStyles.linkItemActive
-                  : HeaderStyles.linkItemNonActive
-              }
-              onClick={() => handleActive("/")}
-            >
-              <Typography variant="body2">Home</Typography>
-            </Link>
+            <Box data-testid="Search">
+              <Search />
+            </Box>
 
-            <Typography
-              variant="body2"
-              onClick={showNavMenu}
-              style={
-                navMenu
-                  ? HeaderStyles.linkItemActive
-                  : HeaderStyles.linkItemNonActive
-              }
-            >
-              {" "}
-              Explore <CaretDown />
-            </Typography>
+            <Box data-testid="Home">
+              <Link
+                to="/"
+                style={
+                  activeLink === "/"
+                    ? HeaderStyles.linkItemActive
+                    : HeaderStyles.linkItemNonActive
+                }
+                onClick={() => handleActive("/")}
+              >
+                <Typography variant="body2">Home</Typography>
+              </Link>
+            </Box>
 
-            <Link
-              to="/library"
-              style={
-                activeLink === "/library"
-                  ? HeaderStyles.linkItemActive
-                  : HeaderStyles.linkItemNonActive
-              }
-              onClick={() => handleActive("/library")}
-            >
-              <Typography variant="body2">My Library</Typography>
-            </Link>
+            <Box data-testid="Explore">
+              <Typography
+                variant="body2"
+                onClick={showNavMenu}
+                style={
+                  navMenu
+                    ? HeaderStyles.linkItemActive
+                    : HeaderStyles.linkItemNonActive
+                }
+              >
+                {" "}
+                Explore <CaretDown />
+              </Typography>
+            </Box>
+
+            <Box data-testid="My Library">
+              <Link
+                to="/library"
+                style={
+                  activeLink === "/library"
+                    ? HeaderStyles.linkItemActive
+                    : HeaderStyles.linkItemNonActive
+                }
+                onClick={() => handleActive("/library")}
+              >
+                <Typography variant="body2">My Library</Typography>
+              </Link>
+            </Box>
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} style={HeaderStyles.profile}>

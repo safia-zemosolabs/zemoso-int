@@ -18,7 +18,7 @@ const styles = {
 const Banner = () => {
   return (
     <div className="container" style={styles.banner}>
-      <div>
+      <div data-testid="Title">
         <Typography
           variant="heading"
           component="h2"

@@ -69,6 +69,7 @@ const Blink = () => {
     <Box
       className="container"
       style={{ padding: `${theme.spacing(7)} ${theme.spacing(9)}` }}
+      data-testid="Blink Page"
     >
       <Typography
         variant="body1"

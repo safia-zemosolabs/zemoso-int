@@ -1,13 +1,10 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-
+import { MemoryRouter } from "react-router";
 import Banner from "./Banner";
 
-test("renders learn react link", () => {
+test("should render Banner", () => {
   render(<Banner />);
-
-  const typographyElement = screen.getByText(
-    /Explore Books on entrepreneurship/i
-  );
-  expect(typographyElement).toBeInTheDocument;
+  const element = screen.getByTestId("Title");
+  expect(element).toBeTruthy();
 });
