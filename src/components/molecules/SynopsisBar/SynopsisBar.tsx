@@ -34,12 +34,13 @@ const SynopsisBar = () => {
   };
 
   return (
-    <Box style={styles.tabs}>
+    <Box style={styles.tabs} data-testid="SynopsisBar">
       <Typography
         variant={activeTab === 0 ? "subtitle2" : "subtitle3"}
         component="h3"
         onClick={() => handleClick(0)}
         style={activeTab === 0 ? styles.active : styles.inActive}
+        data-testid="SynopsisBar Tab-1"
       >
         Synopsis
       </Typography>
@@ -47,6 +48,7 @@ const SynopsisBar = () => {
         variant={activeTab === 1 ? "subtitle2" : "subtitle3"}
         component="h3"
         style={activeTab === 1 ? styles.active : styles.inActive}
+        data-testid="SynopsisBar Tab-2"
       >
         Who is it?
       </Typography>
@@ -54,6 +56,7 @@ const SynopsisBar = () => {
         variant={activeTab === 2 ? "subtitle2" : "subtitle3"}
         component="h3"
         style={activeTab === 2 ? styles.active : styles.inActive}
+        data-testid="SynopsisBar Tab-3"
       >
         About Author
       </Typography>
