@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648795750379" clover="3.2.0">
-  <project timestamp="1648795750379" name="All files">
-    <metrics statements="235" coveredstatements="130" conditionals="54" coveredconditionals="22" methods="121" coveredmethods="43" elements="410" coveredelements="195" complexity="0" loc="235" ncloc="235" packages="49" files="138" classes="138"/>
+<coverage generated="1648797692236" clover="3.2.0">
+  <project timestamp="1648797692237" name="All files">
+    <metrics statements="238" coveredstatements="133" conditionals="54" coveredconditionals="22" methods="123" coveredmethods="45" elements="415" coveredelements="200" complexity="0" loc="238" ncloc="238" packages="50" files="141" classes="141"/>
     <package name="src">
       <metrics statements="16" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/App.tsx">
@@ -110,6 +110,21 @@
         <line num="4" count="10" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.icons.BannerIcon">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="BannerIcon.stories.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/BannerIcon/BannerIcon.stories.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="BannerIcon.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/BannerIcon/BannerIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/BannerIcon/index.tsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
@@ -474,16 +489,16 @@
       </file>
     </package>
     <package name="src.components.molecules.Banner">
-      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="Banner.stories.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Banner/Banner.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
       </file>
       <file name="Banner.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Banner/Banner.tsx">
-        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Banner/index.tsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -795,7 +810,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/themes/index.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="57" count="36" type="stmt"/>
+        <line num="57" count="37" type="stmt"/>
       </file>
     </package>
   </project>

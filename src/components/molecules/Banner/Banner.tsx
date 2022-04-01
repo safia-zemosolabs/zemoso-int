@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import Png from "../../../assets/banner.png";
+import BannerIcon from "../../atoms/icons/BannerIcon";
 import theme from "../../../themes";
 
 const styles = {
@@ -30,7 +30,7 @@ const Banner = () => {
                 marginBottom: theme.spacing(4),
               }}
             >
-              Explore Books on entrepreneurship
+              png Explore Books on entrepreneurship
             </Typography>
           </Box>
 
@@ -47,7 +47,7 @@ const Banner = () => {
         </Box>
 
         <Box data-testid="Banner Image">
-          <img src={Png} alt="downlist1" />
+          <BannerIcon />
         </Box>
       </Box>
     </>
