@@ -25,10 +25,12 @@ const styles = {
 
 const SearchBar = () => {
   return (
-    <div style={styles.search}>
-      <span style={styles.icon}>
-        <Search></Search>
-      </span>
+    <div style={styles.search} data-testid="Search Bar">
+      <div data-testid="SearchBar Icon">
+        <span style={styles.icon}>
+          <Search></Search>
+        </span>
+      </div>
       <input
         type="text"
         placeholder="Search by title or author"
