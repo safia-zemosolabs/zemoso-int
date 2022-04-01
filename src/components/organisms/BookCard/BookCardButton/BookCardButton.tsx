@@ -39,7 +39,7 @@ const styles = {
 
 const BookCardButton = (props: BookCardProps) => {
   return (
-    <div style={styles.bookCard}>
+    <div style={styles.bookCard} data-testid="BookCardButton">
       <img src={props.img} alt="book" style={styles.img}></img>
       <div style={styles.bookCardDiv}>
         <Typography
