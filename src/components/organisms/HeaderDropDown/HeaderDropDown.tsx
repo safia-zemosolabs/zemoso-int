@@ -143,11 +143,19 @@ const HeaderDropDown = () => {
     <Box style={styles.dropDown}>
       <Box className="container" style={{ zIndex: 1 }}>
         <Box style={styles.filterDiv}>
-          <Typography variant="body1" style={styles.filterActive}>
+          <Typography
+            variant="body1"
+            style={styles.filterActive}
+            data-testid="HeaderDropDown Explore"
+          >
             Explore by category
           </Typography>
-          <Typography variant="body1">See recently added titles</Typography>
-          <Typography variant="body1">See popular titles</Typography>
+          <Typography variant="body1" data-testid="HeaderDropDown recently">
+            See recently added titles
+          </Typography>
+          <Typography variant="body1" data-testid="HeaderDropDown popular">
+            See popular titles
+          </Typography>
         </Box>
 
         <hr style={styles.row}></hr>
