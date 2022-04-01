@@ -33,7 +33,7 @@ const NavMenuLink = (props: NavMenuLinkProps) => {
   };
 
   return (
-    <Link to={props.url} style={styles.link}>
+    <Link to={props.url} style={styles.link} data-testid="NavMenuLink">
       {props.icon}
       <Typography
         variant="body2"

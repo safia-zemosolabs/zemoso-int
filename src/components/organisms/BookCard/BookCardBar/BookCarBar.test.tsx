@@ -9,7 +9,6 @@ const args = {
   id: 0,
   inLibrary: true,
   finished: true,
-  img: <img />,
   title: "Bring Your Human to Work",
   author: "Stephen Frost",
   views: "11.12k",
