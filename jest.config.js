@@ -28,6 +28,7 @@ module.exports = {
         "./assetsTransformer.js",
     },
     moduleNameMapper: {
+      '\.(png)$': '/src/assets/banner.png',
       ".+\\.(css|styl|less|sass|scss)$": "identity-obj-proxy",
     },
     verbose: true,

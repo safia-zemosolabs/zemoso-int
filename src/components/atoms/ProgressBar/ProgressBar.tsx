@@ -15,8 +15,8 @@ const styles = {
 
 const ProgressBar = () => {
   return (
-    <div style={styles.progress}>
-      <div style={styles.progressBar}></div>
+    <div style={styles.progress} data-testid="Progress">
+      <div style={styles.progressBar} data-testid="Progress Bar"></div>
     </div>
   );
 };
