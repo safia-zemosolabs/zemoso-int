@@ -48,6 +48,7 @@ const Blink = () => {
   const { bookList, setBookList } =
     useContext<BookContextType>(bookListContext);
   const location = useLocation();
+  console.log(location);
   const book =
     bookList[parseInt(location.pathname[location.pathname.length - 1])];
 
@@ -76,16 +77,18 @@ const Blink = () => {
         color={theme.palette.textcolor.main}
         mb={theme.spacing(9)}
         mt={theme.spacing(6)}
+        data-testid="Blink Page Get the key ideas"
       >
         Get the key ideas from
       </Typography>
-      <Box style={styles.blink}>
+      <Box style={styles.blink} data-testid="Blink Page extension">
         <Box>
           <Typography
             variant="heading"
             component="h1"
             color={theme.palette.textcolor.main}
             mb={theme.spacing(8)}
+            data-testid="Blink Page Title"
           >
             {book.title}
           </Typography>
@@ -94,6 +97,7 @@ const Blink = () => {
             color={theme.palette.textcolor.main}
             component="div"
             mb={theme.spacing(3)}
+            data-testid="Blink Page Turning Your Business"
           >
             Turning Your Business into an Enduring Great Company
           </Typography>
@@ -102,20 +106,29 @@ const Blink = () => {
             color={theme.palette.textcolor.light}
             component="div"
             mb={theme.spacing(3)}
+            data-testid="Blink Page Author"
           >
             {book.author}
           </Typography>
 
           <span style={styles.cardInfo}>
             <UserIcon />
-            <Typography variant="caption1" component="span">
+            <Typography
+              variant="caption1"
+              component="span"
+              data-testid="Blink Page Views"
+            >
               {book.views}
             </Typography>
           </span>
 
           <span style={styles.cardInfo}>
             <TimeIcon />
-            <Typography variant="caption1" component="span">
+            <Typography
+              variant="caption1"
+              component="span"
+              data-testid="Blink Page Duration"
+            >
               {book.duration}
             </Typography>
           </span>
@@ -135,7 +148,12 @@ const Blink = () => {
                   border: "2px solid black",
                 }}
               >
-                <Typography style={styles.button}>Read Again</Typography>
+                <Typography
+                  style={styles.button}
+                  data-testid="Blink Page Read Again"
+                >
+                  Read Again
+                </Typography>
               </Box>
             )}
 
@@ -153,7 +171,12 @@ const Blink = () => {
                   border: "2px solid black",
                 }}
               >
-                <Typography style={styles.button}>Finish Reading</Typography>
+                <Typography
+                  style={styles.button}
+                  data-testid="Blink Page Finish Reading"
+                >
+                  Finish Reading
+                </Typography>
               </Box>
             )}
 
@@ -161,7 +184,11 @@ const Blink = () => {
               onClick={() => handleSendToKindle(book.id)}
               style={{ marginTop: theme.spacing(8) }}
             >
-              <Typography variant="body2" color={theme.palette.textcolor.light}>
+              <Typography
+                variant="body2"
+                color={theme.palette.textcolor.light}
+                data-testid="Blink Page Send to Kindle"
+              >
                 Send to Kindle <ArrowRight />
               </Typography>
             </Box>
@@ -174,6 +201,7 @@ const Blink = () => {
               color={theme.palette.textcolor.light}
               component="div"
               mb={theme.spacing(3)}
+              data-testid="Blink Page SynopsisBar"
             >
               {book.synopsis}
             </Typography>
