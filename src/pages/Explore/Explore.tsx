@@ -27,7 +27,7 @@ const Explore = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container" data-testid="Explore Page">
         <Banner />
         <SearchBar />
         <Typography

@@ -1,14 +1,13 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router";
 
 import Blink from "./Blink";
+
 import { bookListContext } from "../../App";
 import data from "../../data";
 
-import { MemoryRouter } from "react-router";
-
 const bookList = data;
-
 const setBookList = () => {};
 
 test("Testing Blink Page", () => {
@@ -104,18 +103,6 @@ test("Testing Blink Page Read Again", () => {
     </MemoryRouter>
   );
   const element = screen.getByTestId("Blink Page Read Again");
-  expect(element).toBeTruthy();
-});
-
-test("Testing Blink Page Finish Reading", () => {
-  render(
-    <MemoryRouter initialEntries={["/library/1"]}>
-      <bookListContext.Provider value={{ bookList, setBookList }}>
-        <Blink />
-      </bookListContext.Provider>
-    </MemoryRouter>
-  );
-  const element = screen.getByTestId("Blink Page Finish Reading");
   expect(element).toBeTruthy();
 });
 

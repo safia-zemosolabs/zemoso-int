@@ -48,7 +48,6 @@ const Blink = () => {
   const { bookList, setBookList } =
     useContext<BookContextType>(bookListContext);
   const location = useLocation();
-  console.log(location);
   const book =
     bookList[parseInt(location.pathname[location.pathname.length - 1])];
 

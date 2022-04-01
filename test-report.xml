@@ -1,371 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/SynopsisBar/SynopsisBar.test.tsx">
-    <testCase name="Testing SynopsisBar" duration="83"/>
-    <testCase name="Testing SynopsisBar Tab-1" duration="35"/>
-    <testCase name="Testing SynopsisBar Tab-2" duration="19"/>
-    <testCase name="Testing SynopsisBar Tab-3" duration="19"/>
-  </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/PageTitle/PageTitle.test.tsx">
-    <testCase name="renders learn react link" duration="69"/>
+    <testCase name="renders learn react link" duration="73"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Button/Primary/Primary.test.tsx">
-    <testCase name="renders learn react link" duration="76"/>
+    <testCase name="renders learn react link" duration="102"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/SynopsisBar/SynopsisBar.test.tsx">
+    <testCase name="Testing SynopsisBar" duration="103"/>
+    <testCase name="Testing SynopsisBar Tab-1" duration="24"/>
+    <testCase name="Testing SynopsisBar Tab-2" duration="46"/>
+    <testCase name="Testing SynopsisBar Tab-3" duration="36"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/organisms/Footer/Footer.test.tsx">
-    <testCase name="Testing Footer" duration="130"/>
-    <testCase name="Testing Footer Content" duration="75"/>
-    <testCase name="Testing Footer Logo" duration="36"/>
-    <testCase name="Testing Footer Caption1" duration="34"/>
-    <testCase name="Testing Footer Editorial" duration="34"/>
-    <testCase name="Testing Footer Book lists" duration="37"/>
-    <testCase name="Testing Footer Nonfiction" duration="32"/>
-    <testCase name="Testing Footer next read" duration="27"/>
-    <testCase name="Testing Footer Benefits of reading" duration="29"/>
+    <testCase name="Testing Footer" duration="167"/>
+    <testCase name="Testing Footer Content" duration="55"/>
+    <testCase name="Testing Footer Logo" duration="47"/>
+    <testCase name="Testing Footer Caption1" duration="48"/>
+    <testCase name="Testing Footer Editorial" duration="45"/>
+    <testCase name="Testing Footer Book lists" duration="33"/>
+    <testCase name="Testing Footer Nonfiction" duration="35"/>
+    <testCase name="Testing Footer next read" duration="29"/>
+    <testCase name="Testing Footer Benefits of reading" duration="30"/>
     <testCase name="Testing Footer Useful links" duration="27"/>
-    <testCase name="Testing Footer Blinkist business" duration="29"/>
-    <testCase name="Testing Footer Pricing" duration="39"/>
-    <testCase name="Testing Footer Company" duration="28"/>
-    <testCase name="Testing Footer About" duration="36"/>
-    <testCase name="Testing Footer Careers" duration="50"/>
-    <testCase name="Testing Footer caption2" duration="27"/>
+    <testCase name="Testing Footer Blinkist business" duration="57"/>
+    <testCase name="Testing Footer Pricing" duration="44"/>
+    <testCase name="Testing Footer Company" duration="21"/>
+    <testCase name="Testing Footer About" duration="26"/>
+    <testCase name="Testing Footer Careers" duration="27"/>
+    <testCase name="Testing Footer caption2" duration="24"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/organisms/HeaderDropDown/HeaderDropDown.test.tsx">
-    <testCase name="Testing HeaderDropDown Explore" duration="441"/>
-    <testCase name="Testing HeaderDropDown recently" duration="109"/>
-    <testCase name="Testing HeaderDropDown popular" duration="100"/>
+    <testCase name="Testing HeaderDropDown Explore" duration="417"/>
+    <testCase name="Testing HeaderDropDown recently" duration="126"/>
+    <testCase name="Testing HeaderDropDown popular" duration="86"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/organisms/Header/Header.test.tsx">
-    <testCase name="should render seacrh icon" duration="481"/>
-    <testCase name="should render Logo icon" duration="120"/>
-    <testCase name="should render Home" duration="135"/>
-    <testCase name="should render Explore" duration="110"/>
-    <testCase name="should render My Library" duration="151"/>
+    <testCase name="should render seacrh icon" duration="565"/>
+    <testCase name="should render Logo icon" duration="181"/>
+    <testCase name="should render Home" duration="105"/>
+    <testCase name="should render Explore" duration="122"/>
+    <testCase name="should render My Library" duration="114"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Home/Home.test.tsx">
-    <testCase name="Testing Home" duration="32"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/organisms/BookCard/BookCardBar/BookCarBar.test.tsx">
+    <testCase name="Testing BookCardBar" duration="143"/>
+    <testCase name="Testing BookCardBar Title" duration="46"/>
+    <testCase name="Testing BookCardBar Author" duration="81"/>
+    <testCase name="Testing BookCardBar UserIcon" duration="30"/>
+    <testCase name="Testing BookCardBar Views" duration="42"/>
+    <testCase name="Testing BookCardBar TimeIcon" duration="28"/>
+    <testCase name="Testing BookCardBar Duration" duration="28"/>
+    <testCase name="Testing BookCardBar Read Again" duration="26"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/SearchBar/SearchBar.test.tsx">
-    <testCase name="Testing Progress" duration="49"/>
-    <testCase name="Testing Progress Bar" duration="31"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/ProgressBar/ProgressBar.test.tsx">
-    <testCase name="Testing Progress" duration="37"/>
-    <testCase name="Testing Progress Bar" duration="8"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Button/Secondary/Secondary.test.tsx">
-    <testCase name="renders learn react link" duration="72"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Flask/Flask.test.tsx">
-    <testCase name="Testing Flask" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Tabs/Tabs.test.tsx">
-    <testCase name="Testing Tabs" duration="92"/>
-    <testCase name="Testing Tabs Tab-1" duration="18"/>
-    <testCase name="Testing Tabs Tab-2" duration="20"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/Blink.test.tsx">
-    <testCase name="Testing Blink Page" duration="260"/>
-    <testCase name="Testing Blink Page Get the key ideas" duration="113"/>
-    <testCase name="Testing Blink Page extension" duration="46"/>
-    <testCase name="Testing Blink Page Turning Your Business" duration="40"/>
-    <testCase name="Testing Blink Page Author" duration="46"/>
-    <testCase name="Testing Blink Page Views" duration="57"/>
-    <testCase name="Testing Blink Page Duration" duration="47"/>
-    <testCase name="Testing Blink Page Read Again" duration="43"/>
-    <testCase name="Testing Blink Page Finish Reading" duration="63">
-      <failure message="TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;Blink Page Finish Reading&quot;]"><![CDATA[TestingLibraryElementError: Unable to find an element by: [data-testid="Blink Page Finish Reading"]
-
-Ignored nodes: comments, <script />, <style />
-<body>
-  <div>
-    <div
-      class="container MuiBox-root css-0"
-      data-testid="Blink Page"
-      style="padding: 28px 36px;"
-    >
-      <p
-        class="MuiTypography-root MuiTypography-body1 css-v7s85o-MuiTypography-root"
-        data-testid="Blink Page Get the key ideas"
-      >
-        Get the key ideas from
-      </p>
-      <div
-        class="MuiBox-root css-0"
-        data-testid="Blink Page extension"
-        style="display: grid; grid-template-columns: auto max-content; gap: 48px; margin-top: 32px; margin-bottom: 48px;"
-      >
-        <div
-          class="MuiBox-root css-0"
-        >
-          <h1
-            class="MuiTypography-root MuiTypography-heading css-8qhr1g-MuiTypography-root"
-            data-testid="Blink Page Title"
-          >
-            Employee to Enterpreneur
-          </h1>
-          <div
-            class="MuiTypography-root MuiTypography-subtitle3 css-1yxrzc5-MuiTypography-root"
-            data-testid="Blink Page Turning Your Business"
-          >
-            Turning Your Business into an Enduring Great Company
-          </div>
-          <div
-            class="MuiTypography-root MuiTypography-body2 css-1tragkq-MuiTypography-root"
-            data-testid="Blink Page Author"
-          >
-            Stephen Frost
-          </div>
-          <span
-            style="display: flex; gap: 4px; align-items: center; color: rgb(102, 102, 102); margin-bottom: 8px;"
-          >
-            <svg
-              fill="none"
-              height="16px"
-              viewBox="0 0 14 19"
-              width="16px"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.6666 18.3335H12V16.6668C12 16.0038 11.7366 15.3679 11.2677 14.8991C10.7989 14.4302 10.163 14.1668 9.49998 14.1668H4.49998C3.83694 14.1668 3.20105 14.4302 2.73221 14.8991C2.26337 15.3679 1.99998 16.0038 1.99998 16.6668V18.3335H0.333313V16.6668C0.333313 15.5618 0.7723 14.502 1.5537 13.7206C2.3351 12.9391 3.39491 12.5002 4.49998 12.5002H9.49998C10.605 12.5002 11.6649 12.9391 12.4463 13.7206C13.2277 14.502 13.6666 15.5618 13.6666 16.6668V18.3335ZM6.99998 10.8335C6.34337 10.8335 5.69319 10.7042 5.08656 10.4529C4.47993 10.2016 3.92874 9.83332 3.46445 9.36903C3.00015 8.90474 2.63186 8.35354 2.38058 7.74691C2.12931 7.14029 1.99998 6.49011 1.99998 5.8335C1.99998 5.17689 2.12931 4.52671 2.38058 3.92008C2.63186 3.31345 3.00015 2.76226 3.46445 2.29796C3.92874 1.83367 4.47993 1.46537 5.08656 1.2141C5.69319 0.962825 6.34337 0.833496 6.99998 0.833496C8.32606 0.833496 9.59783 1.36028 10.5355 2.29796C11.4732 3.23564 12 4.50741 12 5.8335C12 7.15958 11.4732 8.43135 10.5355 9.36903C9.59783 10.3067 8.32606 10.8335 6.99998 10.8335ZM6.99998 9.16683C7.88403 9.16683 8.73188 8.81564 9.357 8.19052C9.98212 7.5654 10.3333 6.71755 10.3333 5.8335C10.3333 4.94944 9.98212 4.10159 9.357 3.47647C8.73188 2.85135 7.88403 2.50016 6.99998 2.50016C6.11592 2.50016 5.26808 2.85135 4.64296 3.47647C4.01784 4.10159 3.66665 4.94944 3.66665 5.8335C3.66665 6.71755 4.01784 7.5654 4.64296 8.19052C5.26808 8.81564 6.11592 9.16683 6.99998 9.16683Z"
-                fill="#6D787E"
-              />
-            </svg>
-            <span
-              class="MuiTypography-root MuiTypography-caption1 css-37jdci-MuiTypography-root"
-              data-testid="Blink Page Views"
-            >
-              11.12k
-            </span>
-          </span>
-          <span
-            style="display: flex; gap: 4px; align-items: center; color: rgb(102, 102, 102); margin-bottom: 8px;"
-          >
-            <svg
-              fill="none"
-              height="16px"
-              viewBox="0 0 18 18"
-              width="16px"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.99999 17.3332C4.39749 17.3332 0.666656 13.6023 0.666656 8.99984C0.666656 4.39734 4.39749 0.666504 8.99999 0.666504C13.6025 0.666504 17.3333 4.39734 17.3333 8.99984C17.3333 13.6023 13.6025 17.3332 8.99999 17.3332ZM8.99999 15.6665C10.7681 15.6665 12.4638 14.9641 13.714 13.7139C14.9643 12.4636 15.6667 10.7679 15.6667 8.99984C15.6667 7.23173 14.9643 5.53604 13.714 4.28579C12.4638 3.03555 10.7681 2.33317 8.99999 2.33317C7.23188 2.33317 5.53619 3.03555 4.28594 4.28579C3.0357 5.53604 2.33332 7.23173 2.33332 8.99984C2.33332 10.7679 3.0357 12.4636 4.28594 13.7139C5.53619 14.9641 7.23188 15.6665 8.99999 15.6665ZM9.83332 8.99984H13.1667V10.6665H8.16666V4.83317H9.83332V8.99984Z"
-                fill="#6D787E"
-              />
-            </svg>
-            <span
-              class="MuiTypography-root MuiTypography-caption1 css-37jdci-MuiTypography-root"
-              data-testid="Blink Page Duration"
-            >
-              16min
-            </span>
-          </span>
-          <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-3 MuiGrid-grid-xs-12 css-932c1d-MuiGrid-root"
-            style="padding: 20px 0px; display: grid; grid-template-columns: repeat(3, max-content); gap: 32px; align-items: center;"
-          >
-            <div
-              class="MuiBox-root css-0"
-              style="margin-top: 32px; border: 2px solid black;"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-                data-testid="Blink Page Read Again"
-                style="display: grid; padding: 12px 16px; text-align: center; color: rgb(3, 49, 75);"
-              >
-                Read Again
-              </p>
-            </div>
-            <div
-              class="MuiBox-root css-0"
-              style="margin-top: 32px;"
-            >
-              <div
-                style="display: grid; cursor: pointer; padding: 12px 16px; text-align: center; color: rgb(3, 49, 75); background: rgb(44, 224, 128);"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body2 css-16epbcf-MuiTypography-root"
-                >
-                  Finish Reading
-                </p>
-              </div>
-            </div>
-            <div
-              class="MuiBox-root css-0"
-              style="margin-top: 32px;"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body2 css-13qizrn-MuiTypography-root"
-                data-testid="Blink Page Send to Kindle"
-              >
-                Send to Kindle 
-                <svg
-                  fill="none"
-                  height="12"
-                  viewBox="0 0 13 12"
-                  width="13"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9.629 5.25L5.606 1.227L6.6665 0.166504L12.5 6L6.6665 11.8335L5.606 10.773L9.629 6.75H0.5V5.25H9.629Z"
-                    fill="#6D787E"
-                  />
-                </svg>
-              </p>
-            </div>
-          </div>
-          <div
-            class="MuiBox-root css-0"
-            style="margin-top: 32px;"
-          >
-            <div
-              class="MuiBox-root css-0"
-              data-testid="SynopsisBar"
-              style="display: grid; grid-template-columns: repeat(3, 1fr); cursor: pointer; margin-bottom: 32px;"
-            >
-              <h3
-                class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
-                data-testid="SynopsisBar Tab-1"
-                style="color: rgb(34, 200, 112); border-bottom: 2px solid; padding-bottom: 20px; text-align: center; align-items: center;"
-              >
-                Synopsis
-              </h3>
-              <h3
-                class="MuiTypography-root MuiTypography-subtitle3 css-37jdci-MuiTypography-root"
-                data-testid="SynopsisBar Tab-2"
-                style="color: rgb(109, 120, 126); border-bottom: 2px solid #E1ECFC; padding-bottom: 20px; text-align: center; align-items: center;"
-              >
-                Who is it?
-              </h3>
-              <h3
-                class="MuiTypography-root MuiTypography-subtitle3 css-37jdci-MuiTypography-root"
-                data-testid="SynopsisBar Tab-3"
-                style="color: rgb(109, 120, 126); border-bottom: 2px solid #E1ECFC; padding-bottom: 20px; text-align: center; align-items: center;"
-              >
-                About Author
-              </h3>
-            </div>
-            <div
-              class="MuiTypography-root MuiTypography-body2 css-1tragkq-MuiTypography-root"
-              data-testid="Blink Page SynopsisBar"
-            >
-              Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.
-            </div>
-          </div>
-        </div>
-        <div
-          class="MuiBox-root css-0"
-        >
-          <img
-            alt=""
-            src="/assets/books/3.svg"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-    at Object.getElementError (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/config.js:38:19)
-    at /home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
-    at /home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
-    at getByTestId (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
-    at Object.<anonymous> (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/Blink.test.tsx:118:26)
-    at Promise.then.completed (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/utils.js:391:28)
-    at new Promise (<anonymous>)
-    at callAsyncCircusFn (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/utils.js:316:10)
-    at _callCircusTest (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/run.js:218:40)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at _runTest (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/run.js:155:3)
-    at _runTestsForDescribeBlock (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/run.js:66:9)
-    at run (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/run.js:25:3)
-    at runAndTransformResultsToJestFormat (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
-    at jestAdapter (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-    at runTestInternal (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-runner/build/runTest.js:389:16)
-    at runTest (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-runner/build/runTest.js:475:34)
-    at Object.worker (/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/node_modules/jest-runner/build/testWorker.js:133:12)]]></failure>
-    </testCase>
-    <testCase name="Testing Blink Page Send to Kindle" duration="62"/>
-    <testCase name="Testing Blink Page SynopsisBar" duration="40"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Library/Library.test.tsx">
-    <testCase name="renders learn react link" duration="77"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Carrier/Carrier.test.tsx">
-    <testCase name="Testing Carrier" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Corporate/Corporate.test.tsx">
-    <testCase name="Testing Corporate" duration="2"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Education/Education.test.tsx">
-    <testCase name="Testing Education" duration="2"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Stats/Stats.test.tsx">
-    <testCase name="Testing Stats" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Money/Money.test.tsx">
-    <testCase name="Testing Money" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Communication/Communication.test.tsx">
-    <testCase name="Testing Communication" duration="11"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Motivation/Motivation.test.tsx">
-    <testCase name="Testing Motivation" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Add/Add.test.tsx">
-    <testCase name="Testing Building" duration="2"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
-    <testCase name="Testing PersonalDevelopment" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/History/History.test.tsx">
-    <testCase name="Testing History" duration="3"/>
+    <testCase name="Testing Progress" duration="44"/>
+    <testCase name="Testing Progress Bar" duration="15"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/User/User.test.tsx">
-    <testCase name="Testing User" duration="3"/>
+    <testCase name="Testing User" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Economics/Economics.test.tsx">
-    <testCase name="Testing Economics" duration="3"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Tabs/Tabs.test.tsx">
+    <testCase name="Testing Tabs" duration="63"/>
+    <testCase name="Testing Tabs Tab-1" duration="13"/>
+    <testCase name="Testing Tabs Tab-2" duration="15"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/ProgressBar/ProgressBar.test.tsx">
+    <testCase name="Testing Progress" duration="38"/>
+    <testCase name="Testing Progress Bar" duration="10"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/molecules/Button/Secondary/Secondary.test.tsx">
+    <testCase name="renders learn react link" duration="54"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Building/Building.test.tsx">
-    <testCase name="Testing Building" duration="4"/>
+    <testCase name="Testing Building" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Entrepreneurship/Entrepreneurship.test.tsx">
-    <testCase name="Testing Entrepreneurship" duration="3"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Corporate/Corporate.test.tsx">
+    <testCase name="Testing Corporate" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/History/History.test.tsx">
+    <testCase name="Testing History" duration="7"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
+    <testCase name="Testing PersonalDevelopment" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Economics/Economics.test.tsx">
+    <testCase name="Testing Economics" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Education/Education.test.tsx">
+    <testCase name="Testing Education" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Library/Library.test.tsx">
+    <testCase name="renders learn react link" duration="74"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Add/Add.test.tsx">
+    <testCase name="Testing Building" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Communication/Communication.test.tsx">
+    <testCase name="Testing Communication" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Carrier/Carrier.test.tsx">
+    <testCase name="Testing Carrier" duration="6"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Stats/Stats.test.tsx">
+    <testCase name="Testing Stats" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Motivation/Motivation.test.tsx">
+    <testCase name="Testing Motivation" duration="2"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Blink/Blink.test.tsx">
+    <testCase name="Testing Blink Page" duration="198"/>
+    <testCase name="Testing Blink Page Get the key ideas" duration="72"/>
+    <testCase name="Testing Blink Page extension" duration="65"/>
+    <testCase name="Testing Blink Page Turning Your Business" duration="55"/>
+    <testCase name="Testing Blink Page Author" duration="42"/>
+    <testCase name="Testing Blink Page Views" duration="57"/>
+    <testCase name="Testing Blink Page Duration" duration="39"/>
+    <testCase name="Testing Blink Page Read Again" duration="33"/>
+    <testCase name="Testing Blink Page Send to Kindle" duration="37"/>
+    <testCase name="Testing Blink Page SynopsisBar" duration="37"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/pages/Home/Home.test.tsx">
+    <testCase name="Testing Home" duration="54"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Relationship/Relationship.test.tsx">
+    <testCase name="Testing Relationship" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Productivity/Productivity.test.tsx">
+    <testCase name="Testing Productivity" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Money/Money.test.tsx">
+    <testCase name="Testing Money" duration="7"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Nature/Nature.test.tsx">
+    <testCase name="Testing Nature" duration="9"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/Logo/Logo.test.tsx">
     <testCase name="Testing Logo" duration="3"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Relationship/Relationship.test.tsx">
-    <testCase name="Testing Relationship" duration="2"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/CaretDown/CaretDown.test.tsx">
+    <testCase name="something" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Nature/Nature.test.tsx">
-    <testCase name="Testing Nature" duration="3"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Dots/Dots.test.tsx">
+    <testCase name="Testing Dots" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Productivity/Productivity.test.tsx">
-    <testCase name="Testing Productivity" duration="2"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Entrepreneurship/Entrepreneurship.test.tsx">
+    <testCase name="Testing Entrepreneurship" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/TimeIcon/TimeIcon.test.tsx">
     <testCase name="Testing History" duration="3"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Ellipse/Ellipse.test.tsx">
-    <testCase name="Testing Ellipse" duration="4"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Psychology/Psychology.test.tsx">
+    <testCase name="Testing Psychology" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Dots/Dots.test.tsx">
-    <testCase name="Testing Dots" duration="5"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/CaretDown/CaretDown.test.tsx">
-    <testCase name="something" duration="3"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
-    <testCase name="Testing ArrowRight" duration="2"/>
-  </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Search/Search.test.tsx">
-    <testCase name="Testing Search" duration="2"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Flask/Flask.test.tsx">
+    <testCase name="Testing Flask" duration="2"/>
   </file>
   <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Health/Health.test.tsx">
     <testCase name="Testing Health" duration="2"/>
   </file>
-  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Psychology/Psychology.test.tsx">
-    <testCase name="Testing Psychology" duration="2"/>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Search/Search.test.tsx">
+    <testCase name="Testing Search" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/ArrowRight/ArrowRight.test.tsx">
+    <testCase name="Testing ArrowRight" duration="3"/>
+  </file>
+  <file path="/home/safiak/SK_ZEMOSOLABS/Training/ReactAssignment/blinkist-TS-app_V7/src/components/atoms/icons/Ellipse/Ellipse.test.tsx">
+    <testCase name="Testing Ellipse" duration="2"/>
   </file>
 </testExecutions>

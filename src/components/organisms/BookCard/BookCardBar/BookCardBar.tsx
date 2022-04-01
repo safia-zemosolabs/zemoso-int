@@ -42,7 +42,7 @@ const styles = {
 
 const BookCardBar = (props: BookCardProps) => {
   return (
-    <Box style={styles.bookCard}>
+    <Box style={styles.bookCard} data-testid="BookCardBar">
       <img src={props.img} alt="book" style={styles.img}></img>
 
       <Box style={styles.bookCardDiv}>
@@ -50,25 +50,43 @@ const BookCardBar = (props: BookCardProps) => {
           variant="subtitle2"
           component="h3"
           style={{ color: theme.palette.textcolor.main }}
+          data-testid="BookCardBar Title"
         >
           {props.title}
         </Typography>
 
-        <Typography variant="body1" component="h5" style={styles.author}>
+        <Typography
+          variant="body1"
+          component="h5"
+          style={styles.author}
+          data-testid="BookCardBar Author"
+        >
           {props.author}
         </Typography>
 
         <Box style={styles.cardInfoDiv}>
           <span style={styles.cardInfo}>
-            <UserIcon />
-            <Typography variant="caption1" component="span">
+            <Box data-testid="BookCardBar UserIcon">
+              <UserIcon />
+            </Box>
+            <Typography
+              variant="caption1"
+              component="span"
+              data-testid="BookCardBar Views"
+            >
               {props.views}
             </Typography>
           </span>
 
           <span style={styles.cardInfo}>
-            <TimeIcon />
-            <Typography variant="caption1" component="span">
+            <Box data-testid="BookCardBar TimeIcon">
+              <TimeIcon />
+            </Box>
+            <Typography
+              variant="caption1"
+              component="span"
+              data-testid="BookCardBar Duration"
+            >
               {props.duration}
             </Typography>
           </span>
@@ -76,7 +94,12 @@ const BookCardBar = (props: BookCardProps) => {
 
         <Box>
           {props.finished ? (
-            <Typography variant="body1" component="h5" style={styles.action}>
+            <Typography
+              variant="body1"
+              component="h5"
+              style={styles.action}
+              data-testid="BookCardBar Read Again"
+            >
               Read again
             </Typography>
           ) : (
