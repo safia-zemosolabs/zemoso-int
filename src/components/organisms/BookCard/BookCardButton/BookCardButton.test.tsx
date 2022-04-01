@@ -2,14 +2,13 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 
 import BookCardButton from "./BookCardButton";
-import { ReactComponent as img } from "../../../../assets/books/1.svg";
 import { MemoryRouter } from "react-router-dom";
 
 const args = {
   id: 0,
   inLibrary: true,
   finished: true,
-  img: <img />,
+  img: "/assets/books/1.svg",
   title: "Bring Your Human to Work",
   author: "Stephen Frost",
   views: "11.12k",
