@@ -28,6 +28,16 @@ test("Testing BookCardBar", () => {
   expect(element).toBeTruthy();
 });
 
+test("Testing BookCardBar bookCardDiv", () => {
+  render(
+    <MemoryRouter>
+      <BookCardBar {...args} />
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("BookCardBar bookCardDiv");
+  expect(element).toBeTruthy();
+});
+
 test("Testing BookCardBar Title", () => {
   render(
     <MemoryRouter>
@@ -95,5 +105,15 @@ test("Testing BookCardBar Read Again", () => {
     </MemoryRouter>
   );
   const element = screen.getByTestId("BookCardBar Read Again");
+  expect(element).toBeTruthy();
+});
+
+test("Testing BookCardBar ProgressBar", () => {
+  render(
+    <MemoryRouter>
+      <BookCardBar {...args} />
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("BookCardBar ProgressBar");
   expect(element).toBeTruthy();
 });

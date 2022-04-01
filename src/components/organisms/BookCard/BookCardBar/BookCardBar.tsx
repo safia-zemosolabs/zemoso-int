@@ -45,7 +45,7 @@ const BookCardBar = (props: BookCardProps) => {
     <Box style={styles.bookCard} data-testid="BookCardBar">
       <img src={props.img} alt="book" style={styles.img}></img>
 
-      <Box style={styles.bookCardDiv}>
+      <Box style={styles.bookCardDiv} data-testid="BookCardBar bookCardDiv">
         <Typography
           variant="subtitle2"
           component="h3"
@@ -118,7 +118,9 @@ const BookCardBar = (props: BookCardProps) => {
         ></div>
       </Box>
 
-      <ProgressBar />
+      <Box data-testid="BookCardBar ProgressBar">
+        <ProgressBar />
+      </Box>
     </Box>
   );
 };
