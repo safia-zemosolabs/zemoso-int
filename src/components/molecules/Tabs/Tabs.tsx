@@ -34,12 +34,13 @@ const Tabs = (props: TabsProps) => {
   };
 
   return (
-    <div style={styles.tabs}>
+    <div style={styles.tabs} data-testid="Tabs">
       <Typography
         variant={!activeTab ? "subtitle2" : "subtitle3"}
         component="h3"
         onClick={() => handleClick(false)}
         style={!activeTab ? styles.active : styles.inActive}
+        data-testid="Tabs Tab-1"
       >
         Currently Reading
       </Typography>
@@ -48,6 +49,7 @@ const Tabs = (props: TabsProps) => {
         component="h3"
         onClick={() => handleClick(true)}
         style={activeTab ? styles.active : styles.inActive}
+        data-testid="Tabs Tab-2"
       >
         Finished
       </Typography>

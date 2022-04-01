@@ -30,10 +30,10 @@ const styles = {
 const Footer = () => {
   return (
     <footer style={styles.footer}>
-      <div className="container">
-        <div style={styles.footerContent}>
+      <div className="container" data-testid="Footer">
+        <div style={styles.footerContent} data-testid="Footer Content">
           <div>
-            <div style={{ marginBottom: "24px" }}>
+            <div style={{ marginBottom: "24px" }} data-testid="Footer Logo">
               <Logo />
             </div>
 
@@ -41,6 +41,7 @@ const Footer = () => {
               variant="subtitle1"
               component="h3"
               style={{ color: theme.palette.secondary.main }}
+              data-testid="Footer Caption1"
             >
               Big ideas in small packages Start learnign now
             </Typography>
@@ -50,6 +51,7 @@ const Footer = () => {
               variant="body1"
               component="h4"
               style={styles.footerHead}
+              data-testid="Footer Editorial"
             >
               Editorial
             </Typography>
@@ -57,6 +59,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Book lists"
             >
               Book lists
             </Typography>
@@ -64,6 +67,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Nonfiction"
             >
               What is Nonfiction?
             </Typography>
@@ -71,6 +75,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer next read"
             >
               What to read next?
             </Typography>
@@ -78,6 +83,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Benefits of reading"
             >
               Benefits of reading
             </Typography>
@@ -87,6 +93,7 @@ const Footer = () => {
               variant="body1"
               component="h4"
               style={styles.footerHead}
+              data-testid="Footer Useful links"
             >
               Useful links
             </Typography>
@@ -94,6 +101,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Blinkist business"
             >
               Blinkist business
             </Typography>
@@ -101,6 +109,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Pricing"
             >
               Pricing
             </Typography>
@@ -110,6 +119,7 @@ const Footer = () => {
               variant="body1"
               component="h4"
               style={styles.footerHead}
+              data-testid="Footer Company"
             >
               Company
             </Typography>
@@ -117,6 +127,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer About"
             >
               About
             </Typography>
@@ -124,6 +135,7 @@ const Footer = () => {
               variant="body2"
               component="h5"
               style={styles.footerLink}
+              data-testid="Footer Careers"
             >
               Careers
             </Typography>
@@ -134,6 +146,7 @@ const Footer = () => {
             variant="caption1"
             component="div"
             style={styles.copyright}
+            data-testid="Footer caption2"
           >
             © Blinkist 2021 Sitemap | Imprint | Terms of Service | Privacy
             Policies
