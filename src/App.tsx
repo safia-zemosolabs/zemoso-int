@@ -9,6 +9,8 @@ import theme from "./themes";
 import Footer from "./components/organisms/Footer";
 import Explore from "./pages/Explore";
 import Blink from "./pages/Blink";
+import Login from "pages/Login";
+
 import { BookCardProps } from "./components/organisms/BookCard/BookCardProps";
 
 import data from "data";
@@ -24,13 +26,16 @@ export interface BookContextType {
 }
 
 function App() {
+  const [login, setLogin] = useState(true);
   const [bookList, setBookList] = useState<BookCardProps[]>([]);
 
   useEffect(() => {
     setBookList(data);
   }, [setBookList]);
 
-  return (
+  return login === false ? (
+    <Login setLogin={setLogin} />
+  ) : (
     <Box className="App">
       <bookListContext.Provider value={{ bookList, setBookList }}>
         <ThemeProvider theme={theme}>

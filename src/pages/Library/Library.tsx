@@ -24,11 +24,17 @@ const Library = () => {
   const [isFinished, setIsFinished] = useState(false);
 
   return (
-    <div style={styles.library}>
-      <div className="container">
-        <PageTitle title={"My Library"} />
-        <Tabs setActive={setIsFinished} />
-        <div style={styles.bookCardList}>
+    <div style={styles.library} data-testid="Library Page">
+      <div className="container" data-testid="Library container">
+        <div data-testid="Library PageTitle">
+          <PageTitle title={"My Library"} />
+        </div>
+
+        <div data-testid="Library Tabs">
+          <Tabs setActive={setIsFinished} />
+        </div>
+
+        <div style={styles.bookCardList} data-testid="Library bookCardList">
           {bookList.map((data: BookCardProps, index: number) => {
             return data.inLibrary && data.finished === isFinished ? (
               <Link to={`${data.id}`} style={{ textDecoration: "none" }}>

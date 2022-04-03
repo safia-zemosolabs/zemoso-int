@@ -28,8 +28,12 @@ const Explore = () => {
   return (
     <div>
       <div className="container" data-testid="Explore Page">
-        <Banner />
-        <SearchBar />
+        <div data-testid="Explore Banner">
+          <Banner />
+        </div>
+        <div data-testid="Explore SearchBar">
+          <SearchBar />
+        </div>
         <Typography
           variant="subtitle1"
           component="h2"
@@ -38,10 +42,11 @@ const Explore = () => {
             marginTop: theme.spacing(12),
             marginBottom: theme.spacing(6),
           }}
+          data-testid="Explore Trending"
         >
           Trending blinks
         </Typography>
-        <div style={styles.bookCardList}>
+        <div style={styles.bookCardList} data-testid="Explore BookCardBar">
           {bookList.map((data: BookCardProps, index: number) => {
             return data.inLibrary ? (
               <div key={index}>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Typography, Box, Container, Grid } from "@mui/material";
 import { useLocation, Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 import Logo from "../../atoms/Logo";
 import Search from "../../atoms/icons/Search";
@@ -26,6 +27,8 @@ function Header() {
 
     setNavMenu(!navMenu);
   };
+
+  const { loginWithRedirect } = useAuth0();
 
   return (
     <Box>
@@ -85,8 +88,10 @@ function Header() {
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} style={HeaderStyles.profile}>
-            <Ellipse />
-            <CaretDown />
+            <Box onClick={loginWithRedirect}>
+              <Ellipse />
+              <CaretDown />
+            </Box>
           </Grid>
         </Grid>
       </Container>
