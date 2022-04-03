@@ -8,9 +8,15 @@ test("Testing Library Page", () => {
   expect(element).toBeTruthy();
 });
 
-test("Testing Library Page", () => {
+test("Testing Library container", () => {
   render(<Library />);
-  const element = screen.getByTestId("Library Page");
+  const element = screen.getByTestId("Library container");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Library PageTitle", () => {
+  render(<Library />);
+  const element = screen.getByTestId("Library PageTitle");
   expect(element).toBeTruthy();
 });
 
@@ -23,11 +29,5 @@ test("Testing Library Tabs", () => {
 test("Testing Library bookCardList", () => {
   render(<Library />);
   const element = screen.getByTestId("Library bookCardList");
-  expect(element).toBeTruthy();
-});
-
-test("Testing Library Page", () => {
-  render(<Library />);
-  const element = screen.getByTestId("Library Page");
   expect(element).toBeTruthy();
 });

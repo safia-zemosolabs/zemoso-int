@@ -34,9 +34,11 @@ function App() {
   }, [setBookList]);
 
   return login === false ? (
-    <Login setLogin={setLogin} />
+    <Box data-testid="App Login Page">
+      <Login setLogin={setLogin} />
+    </Box>
   ) : (
-    <Box className="App">
+    <Box className="App" data-testid="App Page">
       <bookListContext.Provider value={{ bookList, setBookList }}>
         <ThemeProvider theme={theme}>
           <Header></Header>
