@@ -140,9 +140,13 @@ let navMenuLinkArr: any[] = [
 
 const HeaderDropDown = () => {
   return (
-    <Box style={styles.dropDown}>
-      <Box className="container" style={{ zIndex: 1 }}>
-        <Box style={styles.filterDiv}>
+    <Box style={styles.dropDown} data-testid="HeaderDropDown">
+      <Box
+        className="container"
+        style={{ zIndex: 1 }}
+        data-testid="HeaderDropDown container"
+      >
+        <Box style={styles.filterDiv} data-testid="HeaderDropDown Titles">
           <Typography
             variant="body1"
             style={styles.filterActive}
@@ -158,9 +162,11 @@ const HeaderDropDown = () => {
           </Typography>
         </Box>
 
-        <hr style={styles.row}></hr>
+        <Box data-testid="HeaderDropDown hr">
+          <hr style={styles.row}></hr>
+        </Box>
 
-        <Box style={styles.category}>
+        <Box style={styles.category} data-testid="HeaderDropDown NavMenuLink">
           {navMenuLinkArr.map((item, i) => (
             <NavMenuLink
               text={item.text}
