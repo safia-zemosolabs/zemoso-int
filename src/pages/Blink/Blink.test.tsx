@@ -106,6 +106,18 @@ test("Testing Blink Page Read Again Button Active", () => {
   expect(element).toBeTruthy();
 });
 
+test("Testing Blink Page handleReadAgain", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/0"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Read Again Button Active");
+  fireEvent.click(element);
+});
+
 test("Testing Blink Page Read Again Button Non-Active", () => {
   render(
     <MemoryRouter initialEntries={["/library/1"]}>

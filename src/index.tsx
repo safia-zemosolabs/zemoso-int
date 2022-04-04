@@ -5,15 +5,15 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-const domain = "https://github.com/";
-const clientId = "safia";
+const domain = "dev-8nvtissb.us.auth0.com";
+const clientId = "lzEvWOB2Wp3Ym3hhU4wiPfihGIQbR2Zj";
 
 ReactDOM.render(
   <BrowserRouter>
     <Auth0Provider
       domain={domain}
       clientId={clientId}
-      redirectUri={`${window.location.origin}/library`}
+      redirectUri={`${window.location.origin}/home`}
     >
       <App />
     </Auth0Provider>

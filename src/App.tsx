@@ -26,7 +26,7 @@ export interface BookContextType {
 }
 
 function App() {
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(false);
   const [bookList, setBookList] = useState<BookCardProps[]>([]);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ function App() {
         <ThemeProvider theme={theme}>
           <Header></Header>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home setLogin={setLogin} />} />
             <Route path="library" element={<Library />} />
             <Route path="library/:blink" element={<Blink />} />
             <Route path="explore/:category" element={<Explore />} />
