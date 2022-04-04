@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
 
 import Blink from "./Blink";
@@ -94,19 +94,19 @@ test("Testing Blink Page Duration", () => {
   expect(element).toBeTruthy();
 });
 
-test("Testing Blink Page Read Again", () => {
+test("Testing Blink Page Read Again Button Active", () => {
   render(
-    <MemoryRouter initialEntries={["/library/1"]}>
+    <MemoryRouter initialEntries={["/library/0"]}>
       <bookListContext.Provider value={{ bookList, setBookList }}>
         <Blink />
       </bookListContext.Provider>
     </MemoryRouter>
   );
-  const element = screen.getByTestId("Blink Page Read Again");
+  const element = screen.getByTestId("Blink Page Read Again Button Active");
   expect(element).toBeTruthy();
 });
 
-test("Testing Blink Page Send to Kindle", () => {
+test("Testing Blink Page Read Again Button Non-Active", () => {
   render(
     <MemoryRouter initialEntries={["/library/1"]}>
       <bookListContext.Provider value={{ bookList, setBookList }}>
@@ -114,7 +114,81 @@ test("Testing Blink Page Send to Kindle", () => {
       </bookListContext.Provider>
     </MemoryRouter>
   );
-  const element = screen.getByTestId("Blink Page Send to Kindle");
+  const element = screen.getByTestId("Blink Page Read Again Button Non-Active");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Read Again text", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/1"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Read Again text");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Finish Reading Button Active", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/1"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Finish Reading Button Active");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Finish Reading Button Non-Active", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/0"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId(
+    "Blink Page Finish Reading Button Non-Active"
+  );
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Finish Reading text", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/0"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Finish Reading text");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Send to Kindle Button", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/1"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Send to Kindle Button");
+  expect(element).toBeTruthy();
+});
+
+test("Testing Blink Page Send to Kindle text", () => {
+  render(
+    <MemoryRouter initialEntries={["/library/1"]}>
+      <bookListContext.Provider value={{ bookList, setBookList }}>
+        <Blink />
+      </bookListContext.Provider>
+    </MemoryRouter>
+  );
+  const element = screen.getByTestId("Blink Page Send to Kindle text");
   expect(element).toBeTruthy();
 });
 

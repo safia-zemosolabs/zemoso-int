@@ -54,11 +54,13 @@ const Blink = () => {
   const handleFinish = (val: number) => {
     bookList[val].finished = true;
     setBookList([...bookList]);
+    <Box data-testid="Blink Page handleFinish"></Box>;
   };
 
   const handleReadAgain = (val: number) => {
     bookList[val].finished = false;
     setBookList([...bookList]);
+    <Box></Box>;
   };
 
   const handleSendToKindle = (val: number) => {
@@ -137,8 +139,12 @@ const Blink = () => {
               <Box
                 onClick={() => handleReadAgain(book.id)}
                 style={{ marginTop: theme.spacing(8) }}
+                data-testid="Blink Page Read Again Button Active"
               >
-                <Button text={"Read Again"}></Button>
+                <Button
+                  text={"Read Again"}
+                  data-testid="Blink Page handleReadAgain"
+                ></Button>
               </Box>
             ) : (
               <Box
@@ -146,10 +152,11 @@ const Blink = () => {
                   marginTop: theme.spacing(8),
                   border: "2px solid black",
                 }}
+                data-testid="Blink Page Read Again Button Non-Active"
               >
                 <Typography
                   style={styles.button}
-                  data-testid="Blink Page Read Again"
+                  data-testid="Blink Page Read Again text"
                 >
                   Read Again
                 </Typography>
@@ -160,6 +167,7 @@ const Blink = () => {
               <Box
                 onClick={() => handleFinish(book.id)}
                 style={{ marginTop: theme.spacing(8) }}
+                data-testid="Blink Page Finish Reading Button Active"
               >
                 <Button text={"Finish Reading"}></Button>
               </Box>
@@ -169,10 +177,11 @@ const Blink = () => {
                   marginTop: theme.spacing(8),
                   border: "2px solid black",
                 }}
+                data-testid="Blink Page Finish Reading Button Non-Active"
               >
                 <Typography
                   style={styles.button}
-                  data-testid="Blink Page Finish Reading"
+                  data-testid="Blink Page Finish Reading text"
                 >
                   Finish Reading
                 </Typography>
@@ -182,11 +191,12 @@ const Blink = () => {
             <Box
               onClick={() => handleSendToKindle(book.id)}
               style={{ marginTop: theme.spacing(8) }}
+              data-testid="Blink Page Send to Kindle Button"
             >
               <Typography
                 variant="body2"
                 color={theme.palette.textcolor.light}
-                data-testid="Blink Page Send to Kindle"
+                data-testid="Blink Page Send to Kindle text"
               >
                 Send to Kindle <ArrowRight />
               </Typography>
