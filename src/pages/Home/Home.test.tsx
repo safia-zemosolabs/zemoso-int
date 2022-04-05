@@ -3,10 +3,8 @@ import { render, screen } from "@testing-library/react";
 
 import Home from "./Home";
 
-const setLogin = () => {};
-
 test("Testing Home", () => {
-  render(<Home setLogin={setLogin} />);
+  render(<Home />);
   const element = screen.getByTestId("Home");
   expect(element).toBeTruthy();
 });

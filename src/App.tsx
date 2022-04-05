@@ -9,7 +9,6 @@ import theme from "./themes";
 import Footer from "./components/organisms/Footer";
 import Explore from "./pages/Explore";
 import Blink from "./pages/Blink";
-import Login from "pages/Login";
 
 import { BookCardProps } from "./components/organisms/BookCard/BookCardProps";
 
@@ -26,24 +25,19 @@ export interface BookContextType {
 }
 
 function App() {
-  const [login, setLogin] = useState(false);
   const [bookList, setBookList] = useState<BookCardProps[]>([]);
 
   useEffect(() => {
     setBookList(data);
   }, [setBookList]);
 
-  return login === false ? (
-    <Box data-testid="App Login Page">
-      <Login setLogin={setLogin} />
-    </Box>
-  ) : (
+  return (
     <Box className="App" data-testid="App Page">
       <bookListContext.Provider value={{ bookList, setBookList }}>
         <ThemeProvider theme={theme}>
           <Header></Header>
           <Routes>
-            <Route path="/home" element={<Home setLogin={setLogin} />} />
+            <Route path="/" element={<Home />} />
             <Route path="library" element={<Library />} />
             <Route path="library/:blink" element={<Blink />} />
             <Route path="explore/:category" element={<Explore />} />

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Typography, Box, Container, Grid } from "@mui/material";
-import { Button } from "@material-ui/core";
 import { useLocation, Link } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
 
 import Logo from "../../atoms/Logo";
 import Search from "../../atoms/icons/Search";
@@ -29,16 +27,6 @@ function Header() {
     setNavMenu(!navMenu);
   };
 
-  const LogoutButton = () => {
-    const { logout } = useAuth0();
-
-    return (
-      <Button onClick={() => logout()} variant="outlined" size="large">
-        Log Out
-      </Button>
-    );
-  };
-
   return (
     <Box>
       <Container maxWidth={false} disableGutters={true} className="container">
@@ -54,9 +42,9 @@ function Header() {
 
             <Box data-testid="Home">
               <Link
-                to="/home"
+                to="/"
                 style={
-                  activeLink === "/home"
+                  activeLink === "/"
                     ? HeaderStyles.linkItemActive
                     : HeaderStyles.linkItemNonActive
                 }
@@ -97,10 +85,8 @@ function Header() {
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} style={HeaderStyles.profile}>
-            <Box onClick={LogoutButton}>
-              <Ellipse />
-              <CaretDown />
-            </Box>
+            <Ellipse />
+            <CaretDown />
           </Grid>
         </Grid>
       </Container>
